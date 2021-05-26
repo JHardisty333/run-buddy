@@ -8,7 +8,7 @@ A website that offers fitness training services
 *CSS
 
 ## Website
-http://JHardisty333.github.io/run_buddy/
+https://jhardisty333.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Jessica H. 
