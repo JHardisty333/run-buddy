@@ -10,7 +10,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
-/* apply styles to <header> */
+/* Header/ Navbar Styles Start */
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -47,8 +47,11 @@ header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 1.5vw;
-}
 
+}
+/* Header/ Navbar Styles End */
+
+/* Footer Style Starts */
 footer {
     background: #fce138;
     width: 100%;
@@ -72,12 +75,13 @@ footer div {
 footer a {
     color: #024e76;
 }
+/*Footer Style Ends */
 
+/* Hero Style Start */
 section {
     padding: 60px;
 }
 
-/* Hero Style Start */
 .hero {
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
@@ -86,7 +90,6 @@ section {
     justify-content: center;
     flex-wrap: wrap;
 }
-/* Hero Style Ends*/
 
 .hero-cta {
     width: 35%;
@@ -142,68 +145,9 @@ section {
     padding: 10px 20px;
     font-size: 16px;
 }
+/* Hero Style Ends*/
 
-.intro p {
-    line-height: 1.7;
-    color: #39a6b2;
-    width: 80%;
-    font-size: 20px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.steps {
-    background: #fce138;
-}
-
-.step {
-    margin: 50px auto;
-    padding-bottom: 50px;
-    width: 80%;
-    border-bottom: 1px solid #39a6b2;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.step-info {
-    flex: 2 70%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.step h3 {
-    color: #024e76;
-    font-size: 46px;
-    flex: 1 30%;
-}
-
-.step-text p {
-    color: #39a6b2;
-    font-size: 18px;
-}
-
-.step-text h4 {
-    font-size: 26px;
-    line-height: 1.5;
-    color: #024e76;
-}
-
-.step-img {
-    flex: 1 12%;
-    margin-right: 20px;
-}
-
-.step-text {
-    flex: 12;
-}
-
-.step-img img {
-    max-width: 100%;
-}
-
+/* Section Title Styles Start */
 .section-title {
     font-size: 55px;
     color: #024e76;
@@ -221,7 +165,75 @@ section {
 .secondary-border {
     border-color: #39a6b2;
 }
+/* Section Title Styles End */
 
+/* What We Do Styles Start */
+.intro p {
+    line-height: 1.7;
+    color: #39a6b2;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+/* What We Do Styles End */
+
+/* What You Do Styles Start */
+.steps {
+    background: #fce138;
+}
+
+.step {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 1px solid #39a6b2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.step h3 {
+    color: #024e76;
+    font-size: 46px;
+    flex: 1 30%;
+}
+
+.step-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.step-img {
+    flex: 1 12%;
+    margin-right: 20px;
+}
+
+.step-img img {
+    max-width: 100%;
+}
+
+
+.step-text {
+    flex: 12;
+}
+
+.step-text p {
+    color: #39a6b2;
+    font-size: 18px;
+}
+
+.step-text h4 {
+    font-size: 26px;
+    line-height: 1.5;
+    color: #024e76;
+}
+/* What You Do Styles End */
+
+/* Meet The Trainers Styles Start */
 .trainers {
     width: 100%;
     margin: 0 auto;
@@ -259,6 +271,7 @@ section {
 .trainer-bio p {
     font-size: 17px;
 }
+/* Meet The Trainers Styles End */
 
 /*REACH OUT STYLES START */
 .contact {
@@ -269,17 +282,22 @@ section {
     color: #fce138;
 }
 
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-info > * {
+    flex: 1;
+    margin: 15px;
+}
+
 .contact-info iframe {
-    width: 400px;
     height: 400px;
 }
 
 .contact-info div {
-    width: 410px;
-    display: inline-block;
-    vertical-align: top;
-    text-align: left;
-    margin: 30px 0 0 60px;
     color: white;
 }
 
@@ -291,8 +309,29 @@ section {
 .contact-info p, .contact-info address {
     margin: 20px 0;
     line-height: 1.5;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
+}
+
+.contact-form input, .contact-form textarea {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.contact-form button {
+    width: 100%;
+    border: none;
+    background: #fce138;
+    color: #024e76;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
 }
 
 .contact-info a {
