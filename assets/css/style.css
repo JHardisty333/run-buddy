@@ -85,9 +85,9 @@ footer {
     flex-wrap: wrap;
 }
 
-footer h2 {
+footer h4 {
     color: #024e76;
-    font-size: 30px;
+    font-size: 25px;
     margin: 0;
 }
 
